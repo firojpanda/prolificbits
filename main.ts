@@ -1,4 +1,4 @@
-rovider "google" {
+provider "google" {
 project = "qwiklabs-gcp-04-576cc70c1ddb"
 region = "us-west1"
 }
