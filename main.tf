@@ -3,8 +3,8 @@ project = "649885794631"
 region = "us-central"
 }
 
-resource "google_compute_instance" "vm_instance2" {
-name = "vm-tf-gcp-git-2"
+resource "google_compute_instance" "vm_instance1" {
+name = "vm-tf-gcp-git-1"
 zone = "us-central1-a"
 boot_disk {
 initialize_params {
