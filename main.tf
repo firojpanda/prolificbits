@@ -4,7 +4,7 @@ region = "us-central"
 }
 
 resource "google_compute_instance" "vm_instance" {
-name = "vm-tf-gcp-git"
+name = "vm-tf-gcp-git-1"
 zone = "us-central1-a"
 boot_disk {
 initialize_params {
