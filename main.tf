@@ -3,8 +3,8 @@ project = "649885794631"
 region = "us-central"
 }
 
-resource "google_compute_instance" "pocvm" {
-name = "vm_tf_gcp_git"
+resource "google_compute_instance" "vm_instance" {
+name = "vm-tf-gcp-git"
 zone = "us-central1-a"
 boot_disk {
 initialize_params {
